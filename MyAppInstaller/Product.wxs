@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="*" Name="MyAppInstaller" Language="1033" Version="1.0.0.0" Manufacturer="Nahid Tanjum" UpgradeCode="c950478d-e38d-484e-bc39-42ce8ac86961">
+    <Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+    <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+    <MediaTemplate />
+
+    <Feature Id="ProductFeature" Title="MyAppInstaller" Level="1">
+      <ComponentGroupRef Id="ProductComponents" />
+    </Feature>
+
+  </Product>
+
+  <Fragment>
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="INSTALLFOLDER" Name="MyAppInstaller" />
+      </Directory>
+    </Directory>
+  </Fragment>
+
+  <Fragment>
+    <ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+      <!-- Main Application Executable -->
+      <Component Id="MyMainApp.exe" Guid="{5EF21571-3C5B-4E5B-A841-5A258B33072A}">
+        <File Id="MyMainApp.exe" Name="MyMainApp.exe" Source="$(var.MyMainApp.TargetDir)MyMainApp.exe" />
+      </Component>
+
+      <!-- MyLibrary1 DLL -->
+      <Component Id="MyLibrary1.dll" Guid="{4F5A516E-67F4-4B8A-BE62-1A392DF5A8E3}">
+        <File Id="MyLibrary1.dll" Name="MyLibrary1.dll" Source="$(var.MyLibrary1.TargetDir)MyLibrary1.dll" />
+      </Component>
+
+      <!-- MyLibrary2 DLL -->
+      <Component Id="MyLibrary2.dll" Guid="{AE6F9C4E-3F78-47F6-A9D1-BB59B6B7A1A2}">
+        <File Id="MyLibrary2.dll" Name="MyLibrary2.dll" Source="$(var.MyLibrary2.TargetDir)MyLibrary2.dll" />
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+</Wix>

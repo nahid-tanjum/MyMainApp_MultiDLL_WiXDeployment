@@ -1,0 +1,7 @@
+C:\Users\Nahid Tanjum\source\repos\MyMainApp\MyAppInstaller\bin\Debug\cab1.cab
+C:\Users\Nahid Tanjum\source\repos\MyMainApp\MyAppInstaller\bin\Debug\MyAppInstaller.msi
+C:\Users\Nahid Tanjum\source\repos\MyMainApp\MyAppInstaller\bin\Debug\MyAppInstaller.wixpdb
+obj\Debug\Product.wixobj
+obj\Debug\MyAppInstaller.wixproj.BindContentsFileListnull.txt
+obj\Debug\MyAppInstaller.wixproj.BindOutputsFileListnull.txt
+obj\Debug\MyAppInstaller.wixproj.BindBuiltOutputsFileListnull.txt

@@ -1,0 +1,3 @@
+C:\Users\Nahid Tanjum\source\repos\MyMainApp\MyLibrary1\bin\Debug\MyLibrary1.dll
+C:\Users\Nahid Tanjum\source\repos\MyMainApp\MyLibrary2\bin\Debug\MyLibrary2.dll
+C:\Users\Nahid Tanjum\source\repos\MyMainApp\MyMainApp\bin\Debug\MyMainApp.exe

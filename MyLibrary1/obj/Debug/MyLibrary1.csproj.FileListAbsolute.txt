@@ -1,0 +1,6 @@
+C:\Users\Nahid Tanjum\source\repos\MyMainApp\MyLibrary1\bin\Debug\MyLibrary1.dll
+C:\Users\Nahid Tanjum\source\repos\MyMainApp\MyLibrary1\bin\Debug\MyLibrary1.pdb
+C:\Users\Nahid Tanjum\source\repos\MyMainApp\MyLibrary1\obj\Debug\MyLibrary1.csprojAssemblyReference.cache
+C:\Users\Nahid Tanjum\source\repos\MyMainApp\MyLibrary1\obj\Debug\MyLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\Nahid Tanjum\source\repos\MyMainApp\MyLibrary1\obj\Debug\MyLibrary1.dll
+C:\Users\Nahid Tanjum\source\repos\MyMainApp\MyLibrary1\obj\Debug\MyLibrary1.pdb

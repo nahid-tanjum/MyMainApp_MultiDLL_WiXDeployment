@@ -1,0 +1,3 @@
+C:\Users\Nahid Tanjum\source\repos\MyMainApp\MyAppInstaller\bin\Debug\cab1.cab
+C:\Users\Nahid Tanjum\source\repos\MyMainApp\MyAppInstaller\bin\Debug\MyAppInstaller.msi
+C:\Users\Nahid Tanjum\source\repos\MyMainApp\MyAppInstaller\bin\Debug\MyAppInstaller.wixpdb
